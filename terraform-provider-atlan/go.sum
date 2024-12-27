@@ -1,2 +1,6 @@
+github.com/atlanhq/atlan-go v0.0.12 h1:UwJRR/wMZnHb+pkJNi1VWrUkv4p/lAJV83E25PEh8XU=
+github.com/atlanhq/atlan-go v0.0.12/go.mod h1:qevIHTGhJ8RcE520IJb8VBxXISZ10DQvk9pCe9JO984=
 github.com/hashicorp/terraform-plugin-sdk/v2 v2.35.0 h1:wyKCCtn6pBBL46c1uIIBNUOWlNfYXfXpVo16iDyLp8Y=
 github.com/hashicorp/terraform-plugin-sdk/v2 v2.35.0/go.mod h1:B0Al8NyYVr8Mp/KLwssKXG1RqnTk7FySqSn4fRuLNgw=
+github.com/matoous/go-nanoid v1.5.0 h1:VRorl6uCngneC4oUQqOYtO3S0H5QKFtKuKycFG3euek=
+github.com/matoous/go-nanoid v1.5.0/go.mod h1:zyD2a71IubI24efhpvkJz+ZwfwagzgSO6UNiFsZKN7U=

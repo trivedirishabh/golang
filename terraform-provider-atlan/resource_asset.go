@@ -2,7 +2,6 @@ package atlan
 
 import (
 	"github.com/atlanhq/atlan-go/atlan"
-	"github.com/atlanhq/atlan-go/models"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 )
 
