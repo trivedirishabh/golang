@@ -1,4 +1,4 @@
-package atlan
+package provider
 
 import (
 	"github.com/atlanhq/atlan-go/atlan" // Import the Atlan SDK
@@ -7,7 +7,7 @@ import (
 
 func Provider() *schema.Provider {
 	return &schema.Provider{
-		// Define provider schema for configuration (API Key, etc.)
+		// Define provider schema and CRUD functions here
 		Schema: map[string]*schema.Schema{
 			"api_key": {
 				Type:        schema.TypeString,
@@ -29,7 +29,6 @@ func Provider() *schema.Provider {
 	}
 }
 
-// providerConfigure sets up the client for use in resources
 func providerConfigure(d *schema.ResourceData) (interface{}, error) {
 	apiKey := d.Get("api_key").(string)
 	baseURL := d.Get("base_url").(string)
