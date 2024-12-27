@@ -1,8 +1,9 @@
 package main
 
 import (
+	atlan "terraform-provider-atlan"
+
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-	"github.com/trivedirishabh/terraform-provider-atlan/atlan"
 )
 
 func main() {
